@@ -1,0 +1,33 @@
+.reviews {
+    padding-bottom: 70px;
+    &__container {
+        margin-top: 70px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-bottom: 100px;
+        &:nth-child(3) {
+            margin-bottom: auto;
+        }
+    }
+    &__img {
+        margin-right: 62px;
+    }
+    &__author {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
